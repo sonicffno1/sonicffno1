@@ -1,43 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
 }
 
 h3 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    line-height: 1.2;
+    margin-bottom: 20px;
 }
 
-.container{
-    margin: 0 auto;
+.form-group {
+    margin-bottom: 15px;
 }
 
-nav{
-    background-color: blue;
-    color: black;
-    height: 80px;
-    align-items: center;
+.form-label {
+    display: block;
+    margin-bottom: 5px;
 }
 
-.nav-con{
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    align-items: center;
+.form-input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
-ul.menu{
-    display: flex;
-    list-style: none;
+.form-radio, .form-checkbox {
+    margin-right: 10px;
 }
 
-ul.menu li{
-    margin: 0 1rem;
+.form-select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
-ul.menu li a{
-    color: white;
-    text-decoration: none;
+.form-textarea {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.form-actions {
+    margin-top: 20px;
+}
+
+.form-actions input {
+    margin-right: 10px;
 }
